@@ -7,6 +7,7 @@ const Time = ({ timeZone, city }) => {
   const timeString = date.toLocaleTimeString();
   const dateString = date.toLocaleDateString();
 
+  // eslint-disable-next-line 
   const [dt, setDt] = useState(new Date().toLocaleString());
 
   useEffect(() => {
@@ -18,6 +19,7 @@ const Time = ({ timeZone, city }) => {
   }, []);
 
   //Spilt AM/PM and acutal time
+  // eslint-disable-next-line 
   let TimeArray = new Array();
   TimeArray = timeString.split(" ");
 
