@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap");
+.App {
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  flex-direction: row;
+}
