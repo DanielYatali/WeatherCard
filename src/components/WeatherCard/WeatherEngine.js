@@ -11,6 +11,7 @@ const WeatherEngine = ({ location }) => {
   //This enhances the user's experience
   //Setting a state triggers a re-render
 
+  // eslint-disable-next-line 
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
