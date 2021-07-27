@@ -1,5 +1,6 @@
 # Website Link: https://weatherappcard.netlify.app/
-
+## Credits: https://www.youtube.com/channel/UC3c4mF6UDQ_MW9PRg7SgE-A
+### Tutorial that aided in learing React and creating the front of the Weather Card
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
