@@ -7,11 +7,8 @@ import styled from "@emotion/styled";
 
 const WeatherEngine = ({ location }) => {
   //State defines a state that the app will be in
-  //Using these states we can switch between states depending on the user
-  //This enhances the user's experience
   //Setting a state triggers a re-render
-
-  // eslint-disable-next-line 
+  // eslint-disable-next-line
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
@@ -25,6 +22,7 @@ const WeatherEngine = ({ location }) => {
   });
 
   const getWeather = async (q) => {
+    //intialize search bar to blank
     setQuery("");
     setLoading(true);
     try {
@@ -45,7 +43,7 @@ const WeatherEngine = ({ location }) => {
     setLoading(false);
   };
 
-  //Use effect can be used to set a default value of a state
+  //useEffect is used to set an effect that is done after the render
   useEffect(() => {
     getWeather(location);
   }, [location]);
@@ -93,7 +91,6 @@ const WeatherEngine = ({ location }) => {
     );
   }
   return (
-    //Conditional rendering if{!loading && !error?} the colon is like an else
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
       <Card style={{ padding: "10px" }}>
         <Weathercard
@@ -127,7 +124,7 @@ const Card = styled.div`
   align-items: center;
   flex-direction: column;
 `;
-
+//The gradient background is created by adjusting the value of the green value, giving different hues of that color
 const BackGround = (temp) => {
   let highTemp = 0;
   let lowTemp = 0;

@@ -1,6 +1,6 @@
 import React from "react";
 import Reel from "react-reel";
-const Temp1 = ({ temp }) => {
+const Temp = ({ temp }) => {
   return (
     <>
       <div style={{ fontSize: "2em" }}>
@@ -10,7 +10,7 @@ const Temp1 = ({ temp }) => {
   );
 };
 
-export default Temp1;
+export default Temp;
 
 const reelStyle = {
   reel: {

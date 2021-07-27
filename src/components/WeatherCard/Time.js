@@ -6,8 +6,7 @@ const Time = ({ timeZone, city }) => {
   const date = calcDate(timeZone);
   const timeString = date.toLocaleTimeString();
   const dateString = date.toLocaleDateString();
-
-  // eslint-disable-next-line 
+  // eslint-disable-next-line
   const [dt, setDt] = useState(new Date().toLocaleString());
 
   useEffect(() => {
@@ -19,7 +18,7 @@ const Time = ({ timeZone, city }) => {
   }, []);
 
   //Spilt AM/PM and acutal time
-  // eslint-disable-next-line 
+  // eslint-disable-next-line
   let TimeArray = new Array();
   TimeArray = timeString.split(" ");
 
@@ -65,7 +64,6 @@ const CurrentTime = styled.div`
   font-family: "Digital-7";
   color: black;
   font-size: 1.5rem;
-  //text-align: center;
   background-color: pink;
   border-radius: 10px;
   border: 3px solid green;
@@ -90,7 +88,6 @@ const CurrentDate = styled.div`
   color: white;
   font-size: 1.5rem;
   text-align: center;
-  //background-color: pink;
   border-radius: 8px;
 `;
 
@@ -98,7 +95,6 @@ const Location = styled.h1`
   font-family: "Merriweather", sans-serif;
   font-size: 1.6em;
   padding-top: 3.5px;
-  //background: pink;
   width: 80%;
   height: 30%;
 `;
