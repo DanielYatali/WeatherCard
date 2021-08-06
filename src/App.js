@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <WeatherEngine location="Trinidad and Tobago, tt" />
-      <WeatherEngine location="London, gb" />
+      <WeatherEngine location="Antarctica" />
       <WeatherEngine location="Sydney, au" />
     </div>
   );
