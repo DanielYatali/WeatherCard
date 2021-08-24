@@ -26,3 +26,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 #### [Credits](https://www.youtube.com/channel/UC3c4mF6UDQ_MW9PRg7SgE-A) `Mahmoud Shehata` : Tutorial that aided in learing React and creating the front of the Weather Card
+
+### More Info: 
+* Date Created: 
+* Purpose: Get Feet Wet with React.js
