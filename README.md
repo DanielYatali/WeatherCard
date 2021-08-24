@@ -1,3 +1,5 @@
+![alt text](https://github.com/DanielYatali/WeatherCard/blob/master/image.png)
+
 # Simple WeatherCard
 ## [Preview](https://weatherappcard.netlify.app)
 
