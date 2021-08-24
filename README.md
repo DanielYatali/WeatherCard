@@ -9,7 +9,7 @@
 
 ### What I Learnt?
 * React
-* React Hooks`useEffect(), useState()`
+* React Hooks `useEffect(), useState()`
 * [Open Weather API](https://openweathermap.org)
 
 
