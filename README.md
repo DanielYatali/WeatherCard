@@ -28,5 +28,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 #### [Credits](https://www.youtube.com/channel/UC3c4mF6UDQ_MW9PRg7SgE-A) `Mahmoud Shehata` : Tutorial that aided in learing React and creating the front of the Weather Card
 
 ### More Info: 
-* Date Created: 
-* Purpose: Get Feet Wet with React.js
+* Date Created: 22/07/2021 (dd/mm/yy)
+* Purpose: Get Feet Wet with `React.js`
