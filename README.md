@@ -8,8 +8,8 @@
 * Flipping the card displays the current date and time for that country.
 
 ### What I Learnt?
-* React
-* React Hooks `useEffect(), useState()`
+* [React](https://reactjs.org)
+* [React Hooks](https://reactjs.org/docs/hooks-intro.html) `useEffect(), useState()`
 * [Open Weather API](https://openweathermap.org)
 
 
