@@ -7,7 +7,7 @@
 * By Clicking on the Country field the user can search for a specific country.
 * Flipping the card displays the current date and time for that country.
 
-### What I Learnt?
+### What I Learnt:
 * [React](https://reactjs.org)
 * [React Hooks](https://reactjs.org/docs/hooks-intro.html) `useEffect(), useState()`
 * [Open Weather API](https://openweathermap.org)
