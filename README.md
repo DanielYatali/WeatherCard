@@ -11,6 +11,7 @@
 * [React](https://reactjs.org)
 * [React Hooks](https://reactjs.org/docs/hooks-intro.html) `useEffect(), useState()`
 * [Open Weather API](https://openweathermap.org)
+* [VS-Code](https://code.visualstudio.com/)
 
 
 ### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
