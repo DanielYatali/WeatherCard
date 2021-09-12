@@ -8,3 +8,8 @@
   justify-content: center;
   flex-direction: row;
 }
+@media only screen and (max-width: 750px) {
+  .App {
+    display: block;
+  }
+}
