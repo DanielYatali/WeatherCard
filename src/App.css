@@ -16,3 +16,10 @@
     margin-top: 150px;
   }
 }
+
+@media only screen and (max-height: 639px) {
+  .App {
+    flex-direction: column;
+    margin-top: 200px;
+  }
+}
