@@ -12,6 +12,6 @@
 @media only screen and (max-width: 750px) {
   .App {
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 150px;
   }
 }
