@@ -25,7 +25,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-If you receive and error execute the command `npm install` then `npm start`
+If you receive an error execute the command `npm install` then `npm start`
 
 #### [Credits](https://www.youtube.com/channel/UC3c4mF6UDQ_MW9PRg7SgE-A) `Mahmoud Shehata` : Tutorial that aided in learing React and creating the front of the Weather Card
 
